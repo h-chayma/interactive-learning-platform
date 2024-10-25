@@ -10,13 +10,17 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './common/header/header.component';
 import { FooterComponent } from './common/footer/footer.component';
 import { HomeComponent } from './home/home.component';
+import { RegisterComponent } from './authentification/register/register.component';
+import { LoginComponent } from './authentification/login/login.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    HomeComponent
+    HomeComponent,
+    RegisterComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,

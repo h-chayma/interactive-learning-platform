@@ -1,0 +1,70 @@
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Black w/ opacity */
+}
+
+.modal-content {
+    background-color: #101010;
+    margin: 15% auto;
+    /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #474747;
+    width: 300px;
+    /* Could be more or less, depending on screen size */
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+    color: #F1F1F1;
+}
+
+.close {
+    color: #A0A0A0;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #FFFFFF;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 30px;
+    background-color: #3B3B3B;
+    color: #FFFFFF;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+input:focus {
+    outline: none;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
