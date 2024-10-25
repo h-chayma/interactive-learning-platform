@@ -1,60 +1,76 @@
-<section class="hero">
+<section class="hero d-flex flex-column align-items-center justify-content-center text-center text-light">
     <h1>Tunisian Devs</h1>
     <p class="tagline">Share your coding challenges and solve them together!</p>
-    <div class="search-container">
-        <input type="text" placeholder="Search for questions...">
-        <button class="search-btn">Search</button>
+    <div class="search-container d-flex justify-content-center">
+        <input type="text" class="form-control me-2" placeholder="Search for questions..." />
+        <button class="btn btn-warning search-btn">Search</button>
     </div>
 </section>
-<div class="content">
-    <!-- Left Menu -->
-    <nav class="left-menu">
-        <ul class="menu-list">
-            <li><a href="#"><i class="icon-home"></i> Questions</a></li>
-            <li><a href="#"><i class="icon-tags"></i> Tags</a></li>
-            <li><a href="#"><i class="icon-users"></i> Users</a></li>
-            <li><a href="#"><i class="icon-signup"></i> Sign Up</a></li>
-            <li><a href="#"><i class="icon-jobs"></i> Jobs</a></li>
-            <li><a href="#"><i class="icon-top"></i> Top Developers</a></li>
-        </ul>
-    </nav>
 
-    <!-- Right Section -->
-    <div class="right-content">
-        <section class="card-section">
-            <h2>Popular Questions</h2>
-            <div class="card">
-                <h3>Web Development</h3>
-                <p>30 votes • 10 answers • Created on: 18 Oct 2024</p>
-            </div>
-            <div class="card">
-                <h3>Mobile Development</h3>
-                <p>20 votes • 5 answers • Created on: 12 Oct 2024</p>
-            </div>
-        </section>
+<div class="container-fluid overflow-hidden text-center mt-3">
+    <div class="row">
+        <nav class="col-12 col-md-4 col-lg-2 p-3 mb-3">
+            <ul class="menu-list list-unstyled">
+                <li><a href="#"><i class="icon-home"></i> Questions</a></li>
+                <li><a href="#"><i class="icon-tags"></i> Tags</a></li>
+                <li><a href="#"><i class="icon-users"></i> Users</a></li>
+                <li><a href="#"><i class="icon-signup"></i> Sign Up</a></li>
+                <li><a href="#"><i class="icon-jobs"></i> Jobs</a></li>
+                <li><a href="#"><i class="icon-top"></i> Top Developers</a></li>
+            </ul>
+        </nav>
 
-        <section class="card-section">
-            <h2>Recent Questions</h2>
-            <div class="card">
-                <h3>Web Development</h3>
-                <p>5 votes • 2 answers • Created on: 20 Oct 2024</p>
-            </div>
-            <div class="card">
-                <h3>Mobile Development</h3>
-                <p>2 votes • 1 answer • Created on: 19 Oct 2024</p>
-            </div>
-        </section>
+        <!-- Right Content Area -->
+        <div class="col-12 col-md-8 col-lg-10 p-4">
+            <div class="row">
+                <div class="col-12 col-md-4 p-3">
+                    <h2 class="text-white">Popular Questions</h2>
+                    <div class="card mb-3 bg-dark text-white">
+                        <div class="card-body">
+                            <h5 class="card-title">Web Development</h5>
+                            <p>30 votes • 10 answers • Created on: 18 Oct 2024</p>
+                        </div>
+                    </div>
+                    <div class="card mb-3 bg-dark text-white">
+                        <div class="card-body">
+                            <h5 class="card-title">Mobile Development</h5>
+                            <p>20 votes • 5 answers • Created on: 12 Oct 2024</p>
+                        </div>
+                    </div>
+                </div>
 
-        <section class="card-section">
-            <h2>Answers</h2>
-            <div class="card">
-                <h3>Web Development</h3>
-                <p>Answered on: 20 Oct 2024</p>
+                <div class="col-12 col-md-4 p-3">
+                    <h2 class="text-white">Recent Questions</h2>
+                    <div class="card mb-3 bg-dark text-white">
+                        <div class="card-body">
+                            <h5 class="card-title">Web Development</h5>
+                            <p>5 votes • 2 answers • Created on: 20 Oct 2024</p>
+                        </div>
+                    </div>
+                    <div class="card mb-3 bg-dark text-white">
+                        <div class="card-body">
+                            <h5 class="card-title">Mobile Development</h5>
+                            <p>2 votes • 1 answer • Created on: 19 Oct 2024</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 p-3">
+                    <h2 class="text-white">Answers</h2>
+                    <div class="card mb-3 bg-dark text-white">
+                        <div class="card-body">
+                            <h5 class="card-title">Web Development</h5>
+                            <p>Answered on: 20 Oct 2024</p>
+                        </div>
+                    </div>
+                    <div class="card mb-3 bg-dark text-white">
+                        <div class="card-body">
+                            <h5 class="card-title">Mobile Development</h5>
+                            <p>Answered on: 19 Oct 2024</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="card">
-                <h3>Mobile Development</h3>
-                <p>Answered on: 19 Oct 2024</p>
-            </div>
-        </section>
+        </div>
     </div>
 </div>
